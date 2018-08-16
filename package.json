@@ -1,0 +1,26 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mock-server": "./lib/cli/bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect ./src/cli/index.js mock",
+    "build": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "Skandar <oo0o0o0qq0@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "jest": "^23.5.0",
+    "supertest": "^3.1.0"
+  }
+}

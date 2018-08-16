@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/node
 
 ### Node ###
+=======
+>>>>>>> 0a59d51dfb89d405b7ec801cdcaf8568452e55f7
 # Logs
 logs
 *.log

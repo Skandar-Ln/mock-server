@@ -6,6 +6,8 @@
 
 Get a full control mock API with js files in less than 10 seconds
 
+[中文 README](README-zh_CN.md)
+
 ## Getting started
 
 install

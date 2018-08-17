@@ -1,10 +1,23 @@
 {
-  "name": "mock-server",
+  "name": "js-mock-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get a full control mock API with js files in less than 10 seconds",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "bin": {
     "mock-server": "./lib/cli/bin.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "codecov": "^3.0.4",
+    "jest": "^23.5.0",
+    "supertest": "^3.1.0"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
@@ -16,17 +29,19 @@
     "build": "babel src -d lib",
     "coverage": "jest && codecov"
   },
-  "keywords": [],
-  "author": "Skandar <oo0o0o0qq0@outlook.com>",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skandar-Ln/mock-server.git"
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "codecov": "^3.0.4",
-    "jest": "^23.5.0",
-    "supertest": "^3.1.0"
-  }
+  "keywords": [
+    "mock",
+    "server",
+    "api"
+  ],
+  "author": "Skandar <oo0o0o0qq0@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Skandar-Ln/mock-server/issues"
+  },
+  "homepage": "https://github.com/Skandar-Ln/mock-server#readme"
 }

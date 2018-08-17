@@ -5,3 +5,31 @@
 [![codecov](https://codecov.io/gh/Skandar-Ln/mock-server/branch/master/graph/badge.svg)](https://codecov.io/gh/Skandar-Ln/mock-server)
 
 Get a full control mock API with js files in less than 10 seconds
+
+## Getting started
+
+install
+
+```
+npm install -g js-mock-server
+```
+
+build a `mock`(or other name) directory at your workplace, see example in this repository
+
+```
+mock
+├── user.js
+```
+
+then edit the content of `user.js`
+
+``` js
+module.export = {name: 'js-mock-server'}
+```
+
+all done, you can
+
+```
+mock-server mock # default to mock
+```
+visit `localhost:3000/user` you will get `{name: 'js-mock-server'}`

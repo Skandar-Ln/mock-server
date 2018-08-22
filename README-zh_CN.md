@@ -14,7 +14,6 @@
 $ npm install -g js-mock-server
 ```
 
-build a `mock`(or other name) directory at your workplace, see example in this repository
 在你的工作目录新建一个`mock`目录（名字可选），如本仓库中的mock文件夹，文件路径对应api的路径
 
 ```

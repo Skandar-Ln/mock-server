@@ -26,7 +26,7 @@ mock
 then edit the content of `user.js`
 
 ```js
-module.export = {name: 'js-mock-server'}
+module.exports = {name: 'js-mock-server'}
 ```
 
 all done, you can

@@ -10,8 +10,8 @@
 
 安装
 
-```
-npm install -g js-mock-server
+```bash
+$ npm install -g js-mock-server
 ```
 
 build a `mock`(or other name) directory at your workplace, see example in this repository
@@ -24,13 +24,13 @@ mock
 
 修改`user.js`的内容
 
-``` js
-module.export = {name: 'js-mock-server'}
+```js
+module.exports = {name: 'js-mock-server'}
 ```
 
 完工，然后你可以
 
-```
+```bash
 mock-server mock # default to mock
 ```
 

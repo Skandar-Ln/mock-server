@@ -12,7 +12,7 @@ Get a full control mock API with js files in less than 10 seconds
 
 install
 
-```
+```bash
 $ npm install -g js-mock-server
 ```
 
@@ -25,13 +25,13 @@ mock
 
 then edit the content of `user.js`
 
-``` js
+```js
 module.export = {name: 'js-mock-server'}
 ```
 
 all done, you can
 
-```
+```bash
 $ mock-server mock     # default to mock
 ```
 visit `localhost:3000/user` you will get `{name: 'js-mock-server'}`

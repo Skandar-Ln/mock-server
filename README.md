@@ -13,7 +13,7 @@ Get a full control mock API with js files in less than 10 seconds
 install
 
 ```
-npm install -g js-mock-server
+$ npm install -g js-mock-server
 ```
 
 build a `mock`(or other name) directory at your workplace, see example in this repository
@@ -32,6 +32,6 @@ module.export = {name: 'js-mock-server'}
 all done, you can
 
 ```
-mock-server mock # default to mock
+$ mock-server mock     # default to mock
 ```
 visit `localhost:3000/user` you will get `{name: 'js-mock-server'}`
